@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>Hello World!</h2>
-wqer
+<h2>Continuous Integration!</h2>
+
 </body>
 </html>
