@@ -1,5 +1,5 @@
 import org.junit.Test;
-import static org.junit.Assert.*;
+import static junit.framework.Assert.assertEquals;
 
 public class MyUnitTest {
 
@@ -8,8 +8,9 @@ public class MyUnitTest {
         MyUnit myUnit = new MyUnit();
 
         String result = myUnit.concatenate("one", "two");
-
+        int a = myUnit.calA(3, 4);
         assertEquals("onetwo", result);
+        assertEquals(7,a);
 
     }
 }
